@@ -8,6 +8,7 @@ function App() {
       <div className="bg-[#1F1E24]  flex">
         <Routes>
           <Route path="/" element={<Home />} />
+          
         </Routes>
       </div>
     </Router>
