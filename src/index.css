@@ -19,3 +19,121 @@ secondary#6556CD */
     background: #6556CD;
     border-radius: 10px;
 }
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/* Add some padding to ensure the content is visible */
+
+.horizontal-scroll-container {
+    padding-bottom: 10px;
+}
+
+
+/* Ensure horizontal scroll on hover */
+
+.horizontal-scroll-container:hover {
+    overflow-x: auto;
+}
+
+
+/* Additional styles for header */
+
+.header-container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5% 10%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.header-container p {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.header-container .trailer-button {
+    margin-top: 1.25rem;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/* Add some padding to ensure the content is visible */
+
+.horizontal-scroll-container {
+    padding-bottom: 10px;
+}
+
+
+/* Ensure horizontal scroll on hover */
+
+.horizontal-scroll-container:hover {
+    overflow-x: auto;
+}
+
+
+/* Additional styles for header */
+
+.header-container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5% 10%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.header-container p {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.header-container .trailer-button {
+    margin-top: 1.25rem;
+}
